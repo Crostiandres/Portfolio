@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portfolio Cristian</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/cristian-garcia-full-stack/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Crostiandres"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://wa.link/9yvmtl"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">CRISTIAN GARCIA</p>
+                <h2> Full Stack Web Developer</h2>
+                <p class="descripcion">Soy un joven apasionado del Desarrollo Web, curioso y dedicado a resolver problemas. Disfruto el Front-End y busco oportunidades para crecer como Full Stack, llevando mis propuestas a nuevas áreas de la programación. </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="Images/FOTO PERFIL.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Cristian Garcia</span> </h2>
+            <h3>Full Stack Web Developer</h3>
+            <p>A los 21 años, me adentré en el mundo de la programación en 2023 a través de un bootcamp, donde adquirí habilidades en JavaScript, React, HTML, CSS, Nodejs y SQL. Con diversos proyectos ya realizados, mi pasión es seguir aprendiendo y creando experiencias únicas con mis conocimientos en programación.</p>
+            <a href="file:///C:/Users/asus/Downloads/CV%20Cristian%20Garcia%20Julio%202023.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Desarrollo Full Stack</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>SQL</li>
+                    <li>Node</li>
+                    <li>HTML- CSS</li>
+                </ul>
+                <p>Puedo desarrollar una pagina web desde Base de datos, Back-End y Front-End.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Front-End</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>CSS</li>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Back-End</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+          
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <i class="fa-brands fa-html5"></i>
+                <p> <span class="lista"> </span>HTML</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <i class="fa-brands fa-js"></i>
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <i class="fa-brands fa-css3"></i>
+                <p> <span class="lista"> </span>CSS</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <i class="fa-brands fa-react"></i>
+                <p> <span class="lista"> </span>React</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/PF drink app.png" alt="">
+                <div class="info">
+                    <h4>Drink Up </h4>
+                    <p>App Bebidas</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Videogames.png" alt="">
+                <div class="info">
+                    <h4>Proyecto Videogames</h4>
+                    <p>Henry Proyect</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/cristian-garcia-full-stack/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Crostiandres"><i class="fa-brands fa-github"></i></a>
+            <a href="https://wa.link/9yvmtl"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
